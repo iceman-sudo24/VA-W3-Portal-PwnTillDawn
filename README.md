@@ -1,6 +1,6 @@
 # VA-W3-PwnTillDawn-Portal-Writeup
 
-## PwnTillDawn Profile
+## PwnTillDawn Target Profile
 - Machine/Lab Name: Portal
 - Target IP: 10.150.150.12
 - Difficulty: Easy
