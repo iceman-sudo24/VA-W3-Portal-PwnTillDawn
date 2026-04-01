@@ -1,14 +1,14 @@
 # VA-W3-PwnTillDawn-Portal-Writeup
 
 ## PwnTillDawn Target Profile
-- Machine/Lab Name: Portal
-- Target IP: 10.150.150.12
-- Difficulty: Easy
-- Operating System: Linux
+- **Machine/Lab Name**: Portal
+- **Target IP**: 10.150.150.12
+- **Difficulty**: Easy
+- **Operating System**: Linux
 
 ## 1. Reconnaissance
 - To begin, a scan was performed on the PwnTillDawn network where the Target IP ```10.150.150.12``` was found and selected with the nmap command ```nmap -sn 10.150.150.10-254```
-- This target IP was then entered into the active targets section where its IP address and operating system (Linux) was identified.
+- This target IP was then entered into the active targets section in the PwnTillDawn website where its IP address and operating system (Linux) was identified.
 ## 2. Scanning
 - A detailed an aggressive scan was performed on the target IP with ```nmap -sC -sV -p- 10.150.150.12```
   - This command simply scans every possible port on the target, identifies what services are running, and runs basic vulnerability/info scripts on those services
